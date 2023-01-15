@@ -1,0 +1,4 @@
+.clockDiv{
+    display: flex;
+    flex-direction: row;
+}
