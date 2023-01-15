@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <button id="plusButton">+</button>
-    <div id="pomodoroDuration">12</div>
-    <button id="minusButton">-</button>
+    
+<div id='clockDiv' class="clockDiv">
+    <div id="minute" class="clockDiv"></div>
+    <div class="colon" class="clockDiv">:</div>
+    <div id="second" class="clockDiv">00</div>
+</div>
 
+<div id="durationDiv">
+    <button id="plusButtonOfDuration">+</button>
+    <div id="pomodoroDuration">12</div>
+    <button id="minusButtonOfDuration">-</button>
+</div>
+
+<div id="breakTimeDiv">
+    <button id="plusButtonOfBreak">+</button>
+    <div id="breakTimeDuration">05</div>
+    <button id="minusButtonOfBreak">-</button>
+</div>
     <script src="index.js"></script>
 </body>
 </html>
