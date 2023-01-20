@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+
+html,  body {
+    background-color: rgb(193,92,92);
+    height: 100%;
+    width: 100%;
+    font-family: "Space Grotesk",sans-serif;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#titleDiv{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+#clockDiv{
+    font-size: 6rem;
+    letter-spacing: 1rem;
+    margin-left: 40px
+}
+
+#buttons{
+    margin-left: 20px;
+}
+#buttons button {
+        height: 30px;
+        width: 150px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border: none;
+        border-radius: 5px;
+}
+
+ #durationDiv,
+ #breakTimeDiv,
+ #longBreakDiv {
+    margin-top: 55px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:aliceblue;
+}
+
+#durationDiv *,
+#breakTimeDiv *,
+#longBreakDiv * {
+   margin-top: 10px;
+ 
+}
+
+.flexRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flexColumn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plusMinusButtons{
+    height: 30px;
+    width: 20px;
+    color: #000;
+    font-weight:bold;
+    
+}
+
+.durationTitles{
+  font-weight: 700;
+}

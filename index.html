@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    
+<div id="titleDiv">
+    <div id="WorkTitle">Work Time</div>
+</div>
+
+
+<div id='clockDiv' class="flexRow">
+    <div id="minute"></div>
+    <div class="colon">:</div>
+    <div id="second">00</div>
+</div>
+
+    <div id='buttons' class="flexRow">
+        <button id="startStop">Start</button>
+        <button id="resetButton">Reset</button>
+    </div>
+
+
+<div id="plusMinusDiv" class="flexRow">
+    <div id="durationDiv" class="flexColumn">
+        
+            <div class="durationTitles">Pomodoro Duration</div>
+        
+        <button id="plusButtonOfDuration" class="plusMinusButtons">+</button>
+        <div id="pomodoroDuration">25</div>
+        <button id="minusButtonOfDuration" class="plusMinusButtons">-</button>
+    </div>
+
+    <div id="breakTimeDiv" class="flexColumn">
+        <div class="durationTitles">Break Duration</div>
+        <button id="plusButtonOfBreak" class="plusMinusButtons">+</button>
+        <div id="breakTimeDuration">05</div>
+        <button id="minusButtonOfBreak" class="plusMinusButtons">-</button>
+    </div>
+
+    <div id="longBreakDiv" class="flexColumn">
+        <div class="durationTitles">Long Break Duration</div>
+        <button id="plusButtonOfLongBreak" class="plusMinusButtons">+</button>
+        <div id="LongBreakTimeDuration">15</div>
+        <button id="minusButtonOfLongBreak" class="plusMinusButtons">-</button>
+    </div>
+</div>
+</div>
+
+
+    <script src="clock.js"></script>
+    <script src="durationButtons.js"></script>
+
+</body>
+</html>
