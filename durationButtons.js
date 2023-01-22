@@ -94,7 +94,7 @@ function plusOfDuration(){
 
     if(parseInt(pomodoroDuration.innerHTML) < 25){
         if(parseInt(pomodoroDuration.innerHTML) > 0 && parseInt(pomodoroDuration.innerHTML) < 9){
-          elementMinute.innerHTML = `0${parseInt(pomodoroDuration.innerHTML) + 1}`;
+          elementMinute.innerHTML = `${parseInt(pomodoroDuration.innerHTML) + 1}`;
           pomodoroDuration.innerHTML = `0${parseInt(pomodoroDuration.innerHTML) + 1}`;
         }
         else{
@@ -111,7 +111,7 @@ function plusOfDuration(){
 function minusOfDuration(){
     if(parseInt(pomodoroDuration.innerHTML) > 1){
         if(parseInt(pomodoroDuration.innerHTML) < 11){
-          elementMinute.innerHTML = `0${parseInt(pomodoroDuration.innerHTML) - 1}`
+          elementMinute.innerHTML = `${parseInt(pomodoroDuration.innerHTML) - 1}`
           pomodoroDuration.innerHTML = `0${parseInt(pomodoroDuration.innerHTML) - 1}`
         }
         else{
