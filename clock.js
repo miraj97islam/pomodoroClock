@@ -25,7 +25,7 @@ resetButton.addEventListener('click', resetClock);
 
 function setIntervalOfPomodoro(){
 
-   startStopButton.disabled = true;
+   startStopButton.disabled = false;
    WorkTitle.innerText = 'Work Time';
    WorkTitle.style.color = 'black';
   
